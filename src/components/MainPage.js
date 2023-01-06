@@ -4,7 +4,7 @@ const MainPage = () => {
     return (
         <>
       <section id="intro">
-          <div className="container flex flex-col md:flex-row items-center px-6 mx-auto mt-20 md:space-x-5 md:space-y-0">
+          <div className="container flex flex-col md:flex-row items-center px-6 mx-auto mt-20 mb-32 md:space-x-5 md:space-y-0">
               <div className="md:w-1/2">
                   <img className="rounded-lg" src={require("../img/das-keyboards-5q-smart-keyboard.jpg")} alt="" />
               </div>
@@ -16,7 +16,7 @@ const MainPage = () => {
       </section>
   
       <section id="features">
-          <div className="container flex flex-col items-center mx-auto md:space-y-0 md:flex-row">
+          <div className="container flex flex-col items-center mx-auto mb-32 md:space-y-0 md:flex-row">
               <div className="flex flex-col space-y-5 md:w-1/2">
                   <h2 className="max-w-md text-4xl font-bold text-center md:text-left">
                       Modern
@@ -46,7 +46,7 @@ const MainPage = () => {
       </section>
   
       <section id="join">
-          <div className="container flex flex-col items-center mx-auto mt-20 md:space-y-0">
+          <div className="container flex flex-col items-center mx-auto mb-32 md:space-y-0">
               <h2 className="max-w-md text-4xl font-bold mb-6 text-center">
                   Join Us
               </h2>

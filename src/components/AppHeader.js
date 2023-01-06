@@ -13,7 +13,7 @@ const AppHeader = () => {
         <div className="flex flex-col h-screen justify-between">
             <div className="border-solid border-b-2 border-gray">
             <nav className="relative container mx-auto p-5">
-                <div className="flex container flex flex-col items-center justify-between drop-shadow-md md:flex-row">
+                <div className="container flex flex-col items-center justify-between drop-shadow-md md:flex-row">
                     <div className="pt-2">
                         <h1 className="font-bold text-4xl">
                             Keyboard Site
@@ -22,8 +22,8 @@ const AppHeader = () => {
                     <div className="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
                         <Link to="/home">Home</Link>
                         <Link to="/about">About</Link>
-                        <a href="#">List</a>
-                        <a href="#">Contact Us</a>
+                        <Link to="/list">List</Link>
+                        <Link to="/contact">Contact Us</Link>
                     </div>
                 </div>
             </nav>
@@ -61,8 +61,8 @@ const AppHeader = () => {
                         <div className="flex flex-col space-y-3">
                             <Link to="/home">Home</Link>
                             <Link to="/about">About</Link>
-                            <a href="#">List</a>
-                            <a href="#">Contact Us</a>
+                            <Link to="/list">List</Link>
+                            <Link to="/contact">Contact Us</Link>
                         </div>
                     </div>
     

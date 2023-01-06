@@ -6,6 +6,8 @@ import App from './App';
 import AppHeader from './components/AppHeader';
 import reportWebVitals from './reportWebVitals';
 import AboutPage from './components/AboutPage';
+import ListPage from './components/ListPage';
+import ContactPage from './components/ContactPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +17,8 @@ root.render(
         <Route path="/" element={<AppHeader />}>
           <Route path="home" element={<App />} />
           <Route path="about" element={<AboutPage />} />
+          <Route path="list" element={<ListPage />} />
+          <Route path="contact" element={<ContactPage />} />
           <Route index element={<Navigate to="/home" />} />
         </Route>
       </Routes>
