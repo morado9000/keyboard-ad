@@ -1,6 +1,11 @@
-
 import { Outlet } from "react-router-dom";
 import { Link } from "react-router-dom";
+
+import { default as facebook } from "../img/icon-facebook.svg";
+import { default as instagram } from "../img/icon-instagram.svg";
+import { default as pinterest } from "../img/icon-pinterest.svg";
+import { default as twitter } from "../img/icon-twitter.svg";
+import { default as youtube } from "../img/icon-youtube.svg";
 
 const AppHeader = () => {
 
@@ -36,26 +41,26 @@ const AppHeader = () => {
     
                         <div className="flex justify-center space-x-4">
                             <a href="#">
-                                <img src={require("../img/icon-facebook.svg")} alt="" />
+                                <img src={facebook} alt="" />
                             </a>
                             <a href="#">
-                                <img src={require("../img/icon-instagram.svg")} alt="" />
+                                <img src={instagram} alt="" />
                             </a>
                             <a href="#">
-                                <img src={require("../img/icon-pinterest.svg")} alt="" />
+                                <img src={pinterest} alt="" />
                             </a>
                             <a href="#">
-                                <img src={require("../img/icon-twitter.svg")} alt="" />
+                                <img src={twitter} alt="" />
                             </a>
                             <a href="#">
-                                <img src={require("../img/icon-youtube.svg")} alt="" />
+                                <img src={youtube} alt="" />
                             </a>
                         </div>
                     </div>
                     <div className="flex justify-around space-x-32">
                         <div className="flex flex-col space-y-3">
-                            <a href="#">Home</a>
-                            <a href="#">About</a>
+                            <Link to="/home">Home</Link>
+                            <Link to="/about">About</Link>
                             <a href="#">List</a>
                             <a href="#">Contact Us</a>
                         </div>
