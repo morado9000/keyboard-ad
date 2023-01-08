@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/keyboard-ad/static/css/main.b99c0ed3.css",
+    "main.js": "/keyboard-ad/static/js/main.6720abff.js",
+    "static/js/787.83ade708.chunk.js": "/keyboard-ad/static/js/787.83ade708.chunk.js",
+    "static/media/image-asset.png": "/keyboard-ad/static/media/image-asset.f5d8587350b2b140b614.png",
+    "static/media/Keyboard.jpg": "/keyboard-ad/static/media/Keyboard.be61aee62b7fe6900609.jpg",
+    "static/media/CHERRY_STREAM_HERO_1_900.jpg": "/keyboard-ad/static/media/CHERRY_STREAM_HERO_1_900.9230ff9964511fd36124.jpg",
+    "static/media/North-1080x675.jpg": "/keyboard-ad/static/media/North-1080x675.4732e3952959155089f1.jpg",
+    "static/media/ca-times.brightspotcdn.jpg": "/keyboard-ad/static/media/ca-times.brightspotcdn.503d6f4cc888fc17781a.jpg",
+    "static/media/das-keyboards-5q-smart-keyboard.jpg": "/keyboard-ad/static/media/das-keyboards-5q-smart-keyboard.9b5d3ac1bb55ba369966.jpg",
+    "static/media/travel-keyboard-2-1656396499537.jpg": "/keyboard-ad/static/media/travel-keyboard-2-1656396499537.22ba067bbf85473fee46.jpg",
+    "static/media/k552.jpg": "/keyboard-ad/static/media/k552.e41fef8d536ddae7dd37.jpg",
+    "static/media/hideo_kojima_header_1-copy.jpg": "/keyboard-ad/static/media/hideo_kojima_header_1-copy.3669ab389e780f5c2449.jpg",
+    "static/media/keyboard-2-1655071227274.jpg": "/keyboard-ad/static/media/keyboard-2-1655071227274.c043aa284b549cfcc58e.jpg",
+    "static/media/icon-instagram.svg": "/keyboard-ad/static/media/icon-instagram.54d3962efa2aa6085b776d1816557a6a.svg",
+    "static/media/icon-pinterest.svg": "/keyboard-ad/static/media/icon-pinterest.45264b1d1cdf7f0c420d573853779f7b.svg",
+    "index.html": "/keyboard-ad/index.html",
+    "static/media/icon-twitter.svg": "/keyboard-ad/static/media/icon-twitter.01a8907dd0beb126cff27d505c31be52.svg",
+    "static/media/icon-youtube.svg": "/keyboard-ad/static/media/icon-youtube.7d6960fbb0c4831f7c667012f0b102d2.svg",
+    "static/media/icon-facebook.svg": "/keyboard-ad/static/media/icon-facebook.1e9b33385e6dfe7a61acbff13373209c.svg",
+    "main.b99c0ed3.css.map": "/keyboard-ad/static/css/main.b99c0ed3.css.map",
+    "main.6720abff.js.map": "/keyboard-ad/static/js/main.6720abff.js.map",
+    "787.83ade708.chunk.js.map": "/keyboard-ad/static/js/787.83ade708.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b99c0ed3.css",
+    "static/js/main.6720abff.js"
+  ]
+}
