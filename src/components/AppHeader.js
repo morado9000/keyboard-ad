@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 import { default as facebook } from "../img/icon-facebook.svg";
 import { default as instagram } from "../img/icon-instagram.svg";
@@ -7,25 +8,40 @@ import { default as pinterest } from "../img/icon-pinterest.svg";
 import { default as twitter } from "../img/icon-twitter.svg";
 import { default as youtube } from "../img/icon-youtube.svg";
 
+
 const AppHeader = () => {
+
+    const [isOpen, setIsOpen] = useState(false);
 
     return (
         <div className="flex flex-col h-screen justify-between">
             <div className="border-solid border-b-2 border-gray">
             <nav className="relative container mx-auto p-5">
-                <div className="container flex flex-col items-center justify-between drop-shadow-md md:flex-row">
+                <div className="container flex flex-row items-center justify-between drop-shadow-md ">
                     <div className="pt-2">
                         <h1 className="font-bold text-4xl">
                             Keyboard Site
                         </h1>
                     </div>
-                    <div className="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+                    <div className="flex flex-col space-y-3 md:space-y-0 md:space-x-6 flex-row hidden md:block">
                         <Link to="/home">Home</Link>
                         <Link to="/about">About</Link>
                         <Link to="/list">List</Link>
                         <Link to="/contact">Contact Us</Link>
                     </div>
+                    <div onClick={() => setIsOpen((prev) => !prev)} className="cursor-pointer space-y-2 md:hidden">
+                        <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
+                        <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
+                        <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
+                    </div>
+                    
                 </div>
+                <div className={isOpen ? "flex flex-col absolute items-center self-end bg-white py-8 mt-10 left-6 right-6 space-y-6 md:hidden sm:w-auto sm:self-center drop-shadow-md" : "hidden"}>
+                        <Link to="/home">Home</Link>
+                        <Link to="/about">About</Link>
+                        <Link to="/list">List</Link>
+                        <Link to="/contact">Contact Us</Link>
+                    </div>
             </nav>
         </div>
 
